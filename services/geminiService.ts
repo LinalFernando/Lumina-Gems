@@ -8,8 +8,8 @@ const getAiClient = () => {
 
 export const askGemologist = async (product: Product, question: string): Promise<string> => {
   const ai = getAiClient();
-  
-  const systemInstruction = `You are the Chief Gemologist at "Lumina Gems", a high-end luxury jewelry boutique. 
+
+  const systemInstruction = `You are the Chief Gemologist at "Lanka Gems", a high-end luxury jewelry boutique. 
   You are knowledgeable, sophisticated, and polite. 
   You are currently assisting a customer looking at a specific gemstone.
   

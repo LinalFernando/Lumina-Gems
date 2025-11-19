@@ -11,7 +11,7 @@ interface GemologistChatProps {
 const GemologistChat: React.FC<GemologistChatProps> = ({ product, onClose }) => {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: `Greetings. I am the AI Gemologist for Lumina Gems. I see you are admiring the ${product.name}. How may I assist you with its details today?` }
+    { role: 'model', text: `Greetings. I am the AI Gemologist for Lanka Gems. I see you are admiring the ${product.name}. How may I assist you with its details today?` }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -66,13 +66,13 @@ const GemologistChat: React.FC<GemologistChatProps> = ({ product, onClose }) => 
           </div>
         ))}
         {isLoading && (
-            <div className="flex justify-start">
-                <div className="flex flex-row items-center ml-12">
-                    <span className="animate-bounce mx-1 text-gray-400">.</span>
-                    <span className="animate-bounce mx-1 text-gray-400 delay-75">.</span>
-                    <span className="animate-bounce mx-1 text-gray-400 delay-150">.</span>
-                </div>
+          <div className="flex justify-start">
+            <div className="flex flex-row items-center ml-12">
+              <span className="animate-bounce mx-1 text-gray-400">.</span>
+              <span className="animate-bounce mx-1 text-gray-400 delay-75">.</span>
+              <span className="animate-bounce mx-1 text-gray-400 delay-150">.</span>
             </div>
+          </div>
         )}
         <div ref={messagesEndRef} />
       </div>
@@ -88,7 +88,7 @@ const GemologistChat: React.FC<GemologistChatProps> = ({ product, onClose }) => 
             placeholder="Ask about clarity, history..."
             className="flex-1 border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-royal-blue focus:border-transparent text-sm"
           />
-          <button 
+          <button
             onClick={handleSend}
             disabled={isLoading}
             className="bg-royal-blue text-white p-2 rounded-full hover:bg-opacity-90 transition-colors disabled:opacity-50"

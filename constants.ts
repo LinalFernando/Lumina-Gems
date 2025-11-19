@@ -1,6 +1,6 @@
 import { GemCategory, Product } from './types';
 
-export const APP_NAME = "Lumina Gems";
+export const APP_NAME = "Lanka Gems";
 
 export const PRODUCTS: Product[] = [
   {
@@ -12,7 +12,7 @@ export const PRODUCTS: Product[] = [
     carat: 2.5,
     origin: 'Sri Lanka',
     cut: 'Oval',
-    imageUrl: 'https://picsum.photos/id/10/600/600', 
+    imageUrl: '/images/sapphire.png',
   },
   {
     id: '2',
@@ -23,7 +23,7 @@ export const PRODUCTS: Product[] = [
     carat: 1.8,
     origin: 'Myanmar (Burma)',
     cut: 'Cushion',
-    imageUrl: 'https://picsum.photos/id/20/600/600',
+    imageUrl: '/images/ruby.png',
   },
   {
     id: '3',
@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
     carat: 3.1,
     origin: 'Colombia',
     cut: 'Emerald',
-    imageUrl: 'https://picsum.photos/id/30/600/600',
+    imageUrl: '/images/emerald.png',
   },
   {
     id: '4',
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     carat: 4.2,
     origin: 'Australia',
     cut: 'Cabochon',
-    imageUrl: 'https://picsum.photos/id/40/600/600',
+    imageUrl: '/images/opal.png',
   },
   {
     id: '5',
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
     carat: 1.2,
     origin: 'Brazil',
     cut: 'Pear',
-    imageUrl: 'https://picsum.photos/id/50/600/600',
+    imageUrl: '/images/tourmaline.png',
   },
   {
     id: '6',
@@ -67,6 +67,6 @@ export const PRODUCTS: Product[] = [
     carat: 5.5,
     origin: 'Brazil',
     cut: 'Round Brilliant',
-    imageUrl: 'https://picsum.photos/id/60/600/600',
+    imageUrl: '/images/topaz.png',
   }
 ];
