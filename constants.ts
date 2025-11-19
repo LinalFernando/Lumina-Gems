@@ -1,0 +1,72 @@
+import { GemCategory, Product } from './types';
+
+export const APP_NAME = "Lumina Gems";
+
+export const PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'Royal Blue Sapphire',
+    description: 'A velvety blue sapphire of exceptional clarity, originating from the historic mines of Ceylon.',
+    price: 4500,
+    category: GemCategory.PRECIOUS,
+    carat: 2.5,
+    origin: 'Sri Lanka',
+    cut: 'Oval',
+    imageUrl: 'https://picsum.photos/id/10/600/600', 
+  },
+  {
+    id: '2',
+    name: 'Pigeon Blood Ruby',
+    description: 'An intense, fluorescent red ruby that embodies passion and vitality. Untreated and natural.',
+    price: 8200,
+    category: GemCategory.PRECIOUS,
+    carat: 1.8,
+    origin: 'Myanmar (Burma)',
+    cut: 'Cushion',
+    imageUrl: 'https://picsum.photos/id/20/600/600',
+  },
+  {
+    id: '3',
+    name: 'Colombian Emerald',
+    description: 'Vivid green with the characteristic jardin visible deep within. A classic investment piece.',
+    price: 5600,
+    category: GemCategory.PRECIOUS,
+    carat: 3.1,
+    origin: 'Colombia',
+    cut: 'Emerald',
+    imageUrl: 'https://picsum.photos/id/30/600/600',
+  },
+  {
+    id: '4',
+    name: 'Black Opal',
+    description: 'A kaleidoscope of colors featuring flashes of red, green, and blue against a dark body tone.',
+    price: 3200,
+    category: GemCategory.ORGANIC,
+    carat: 4.2,
+    origin: 'Australia',
+    cut: 'Cabochon',
+    imageUrl: 'https://picsum.photos/id/40/600/600',
+  },
+  {
+    id: '5',
+    name: 'Paraiba Tourmaline',
+    description: 'Electric neon blue-green hue, owed to traces of copper. One of the rarest gems on earth.',
+    price: 12500,
+    category: GemCategory.RARE,
+    carat: 1.2,
+    origin: 'Brazil',
+    cut: 'Pear',
+    imageUrl: 'https://picsum.photos/id/50/600/600',
+  },
+  {
+    id: '6',
+    name: 'Imperial Topaz',
+    description: 'Golden-orange with pink undertones, this sherry-colored gem is the most prized variety of Topaz.',
+    price: 1800,
+    category: GemCategory.SEMI_PRECIOUS,
+    carat: 5.5,
+    origin: 'Brazil',
+    cut: 'Round Brilliant',
+    imageUrl: 'https://picsum.photos/id/60/600/600',
+  }
+];
