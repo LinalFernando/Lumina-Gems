@@ -16,19 +16,19 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
         />
         <div className="absolute inset-0 bg-royal-blue mix-blend-multiply" aria-hidden="true"></div>
       </div>
-      <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-serif font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+      <div className="relative max-w-7xl mx-auto py-32 px-4 sm:py-40 sm:px-6 lg:px-8 text-center">
+        <h1 className="text-5xl font-serif font-bold tracking-tight text-white sm:text-6xl lg:text-7xl mb-6 drop-shadow-lg">
           Unearth the Extraordinary
         </h1>
-        <p className="mt-6 text-xl text-gold-light max-w-3xl">
-          Discover a curated collection of the world's most exquisite gemstones. 
-          Each piece tells a story of geological wonder, ethically sourced and 
+        <p className="mt-6 text-xl text-gold-light max-w-2xl mx-auto font-light leading-relaxed">
+          Discover a curated collection of the world's most exquisite gemstones.
+          Each piece tells a story of geological wonder, ethically sourced and
           perfectly cut for the discerning collector.
         </p>
-        <div className="mt-10">
+        <div className="mt-12">
           <button
             onClick={() => setView('CATALOG')}
-            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-none text-royal-blue bg-gold-accent hover:bg-white transition-colors duration-300"
+            className="inline-flex items-center px-10 py-4 border border-gold-accent text-lg font-medium text-gold-accent hover:bg-gold-accent hover:text-royal-blue transition-all duration-300 uppercase tracking-widest"
           >
             View Collection
           </button>
